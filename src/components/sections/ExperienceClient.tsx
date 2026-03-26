@@ -81,16 +81,17 @@ export default function ExperienceClient({ experiences }: Props) {
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
           {data.map((exp, i) => (
             <motion.div
               key={exp.id}
               initial={{ opacity: 0, y: 30 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: i * 0.12 }}
+              className="h-full"
             >
               <div
-                className="group p-6 rounded-2xl border border-white/10 bg-white/[0.03]
+                className="group h-full p-6 rounded-2xl border border-white/10 bg-white/[0.03]
                   hover:border-[#EB8DB5]/40 hover:bg-[#EB8DB5]/5 transition-all duration-300"
               >
                 {/* Date range badge */}

@@ -58,7 +58,7 @@ export default function Navbar() {
           href="#contact"
           className="hidden md:inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium
             bg-gradient-to-r from-[#EB8DB5] to-[#D4A3C4] text-white
-            hover:opacity-90 hover:scale-105 transition-all duration-200 glow-rose"
+            hover:opacity-90 hover:scale-105 transition-all duration-200"
         >
           Hire Me
         </a>
