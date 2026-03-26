@@ -26,13 +26,13 @@ export default function ContactSection() {
             Let&apos;s collaborate!
           </p>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-6">
-            Let&apos;s Start The Design{" "}
-            <span className="gradient-text">From Concept to Reality</span>
+            Let&apos;s Work{" "}
+            <span className="gradient-text">Together</span>
           </h2>
           <p className="text-white/55 mb-10 max-w-xl mx-auto leading-relaxed">
-            Punya proyek menarik yang ingin dikerjakan bersama? Jangan ragu untuk
-            menghubungi saya. Saya siap membantu mewujudkan ide Anda menjadi
-            desain yang memukau.
+            Have a project or opportunity in mind? Feel free to reach out.
+            I&apos;m ready to help you achieve your goals with efficient solutions
+            and great collaboration.
           </p>
 
           <motion.a

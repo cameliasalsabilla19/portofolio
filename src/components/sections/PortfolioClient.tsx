@@ -110,15 +110,7 @@ export default function PortfolioClient({ portfolios }: Props) {
               My <span className="gradient-text">Portfolio</span>
             </h2>
           </motion.div>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.6, delay: 0.15 }}
-            className="text-white/55 mb-12 max-w-2xl"
-          >
-            Beberapa karya desain saya. Sebagian ada yang live, menampilkan
-            fleksibilitas dalam berbagai gaya desain.
-          </motion.p>
+
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {data.map((item, i) => (

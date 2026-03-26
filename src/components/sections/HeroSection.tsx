@@ -65,9 +65,6 @@ export default function HeroSection() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-white mb-2">
               I&apos;m <span className="gradient-text">Camelia</span>
             </h1>
-            <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
-              UI/UX Designer
-            </p>
           </motion.div>
 
           {/* Description */}
@@ -77,10 +74,10 @@ export default function HeroSection() {
             transition={{ delay: 0.45, duration: 0.6 }}
             className="text-white/60 text-base leading-relaxed max-w-md"
           >
-            As a UI/UX Designer, I derive immense joy from aiding individuals in
-            developing their businesses. I am thrilled to share my creativity and
-            expertise in shaping outstanding user experiences by harmonizing
-            captivating design aesthetics with a deep comprehension of user needs.
+            A results-driven professional with a strong passion for technology,
+            specializing in web development, data, and project management.
+            Experienced in handling multiple projects and clients while maintaining
+            high customer satisfaction through effective communication and tailored solutions.
           </motion.p>
 
           {/* CV Button */}

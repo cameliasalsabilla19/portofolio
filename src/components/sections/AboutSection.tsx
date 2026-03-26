@@ -27,11 +27,10 @@ export default function AboutSection() {
             About <span className="gradient-text">Me</span>
           </h2>
           <p className="text-white/65 leading-relaxed max-w-3xl text-base md:text-lg">
-            Sebagai seorang UI/UX Designer, saya menemukan kebahagiaan sejati dalam
-            membantu individu dan bisnis berkembang. Saya bersemangat untuk berbagi
-            kreativitas dan keahlian saya dalam menciptakan pengalaman pengguna yang
-            luar biasa, menggabungkan estetika desain yang memikat dengan pemahaman
-            mendalam terhadap kebutuhan pengguna.
+            A results-driven professional with strengths in web development,
+            project management, client handling, and customer service. Skilled in
+            delivering efficient solutions, managing multiple projects, and maintaining
+            strong communication with clients and teams.
           </p>
         </motion.div>
 
@@ -44,8 +43,9 @@ export default function AboutSection() {
           className="flex flex-wrap gap-3"
         >
           {[
-            "Figma", "Adobe XD", "Prototyping", "User Research",
-            "Wireframing", "Design System", "UI Design", "UX Writing",
+            "Web Development", "Project Management", "Client Relations",
+            "Customer Service", "Problem Solving", "Team Collaboration",
+            "Communication", "Time Management",
           ].map((skill) => (
             <span
               key={skill}
