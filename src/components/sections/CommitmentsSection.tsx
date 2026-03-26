@@ -58,7 +58,7 @@ export default function CommitmentsSection() {
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 items-stretch">
           {commitments.map((c, i) => {
             const Icon = c.icon;
             return (
@@ -67,9 +67,10 @@ export default function CommitmentsSection() {
                 initial={{ opacity: 0, y: 30 }}
                 animate={inView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.6, delay: i * 0.12 }}
+                className="h-full"
               >
                 <div
-                  className="group p-6 rounded-2xl border border-white/10 bg-white/[0.03]
+                  className="group h-full p-6 rounded-2xl border border-white/10 bg-white/[0.03]
                     hover:bg-white/5 transition-all duration-300"
                 >
                   <div className="flex items-start gap-4">
