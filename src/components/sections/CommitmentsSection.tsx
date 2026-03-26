@@ -10,7 +10,7 @@ const commitments = [
     icon: Clock,
     title: "On Time Revision",
     description:
-      "Semua layanan diselesaikan tepat waktu, namun dengan kualitas desain terbaik yang akan membuat Anda puas.",
+      "I ensure that every revision is completed on time while maintaining high quality. I will carefully review every piece of feedback to ensure the final result is professional, meets your needs, and is delivered according to the agreed-upon schedule.",
     color: "#A8D1E7",
   },
   {
@@ -18,7 +18,7 @@ const commitments = [
     icon: MessageCircle,
     title: "Good Communication",
     description:
-      "Saya adalah orang yang ramah diajak berbicara, Anda dapat menghubungi saya di platform manapun selama jam kerja.",
+      "I am an open, friendly person who is always willing to discuss matters throughout the work process. I always strive to maintain clear, responsive, and professional communication so that I can fully understand your needs. You can also contact me via various platforms during business hours to discuss matters, provide feedback, or inquire about the project's progress.",
     color: "#FFBFC5",
   },
   {
@@ -26,7 +26,7 @@ const commitments = [
     icon: Lightbulb,
     title: "Problem Solving",
     description:
-      "Saya menyediakan solusi desain yang efektif dan kreatif untuk memenuhi kebutuhan Anda secara optimal.",
+      "I strive to understand every need and challenge in your project. With a creative and focused approach, I seek out the right design solutions so that the results are not only visually appealing but also truly help achieve your desired goals.",
     color: "#EB8DB5",
   },
   {
@@ -34,7 +34,7 @@ const commitments = [
     icon: Wand2,
     title: "Imaginative Creativity",
     description:
-      "Menghadirkan sesi yang inovatif dan menarik, menciptakan pengalaman yang tak terlupakan untuk Anda.",
+      "I enjoy exploring new ideas and bringing a creative approach to every project. With imagination and an open mind, I strive to create something engaging, innovative, and memorable.",
     color: "#D4A3C4",
   },
 ];
