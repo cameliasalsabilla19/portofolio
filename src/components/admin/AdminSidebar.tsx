@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { Briefcase, ImageIcon, LogOut, Home, LayoutDashboard } from "lucide-react";
+import { Briefcase, ImageIcon, LogOut, Home, FileDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { createClient } from "@/lib/supabase/client";
 import { toast } from "sonner";
@@ -10,6 +10,7 @@ import { toast } from "sonner";
 const navItems = [
   { href: "/admin/experiences", label: "Experience", icon: Briefcase },
   { href: "/admin/portfolio", label: "Portfolio", icon: ImageIcon },
+  { href: "/admin/cv", label: "Curriculum Vitae", icon: FileDown },
 ];
 
 export default function AdminSidebar() {

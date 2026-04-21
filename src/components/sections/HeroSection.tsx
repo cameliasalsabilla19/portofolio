@@ -87,8 +87,10 @@ export default function HeroSection() {
             transition={{ delay: 0.6, duration: 0.6 }}
           >
             <a
-              href="/cv.pdf"
-              download
+              href={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/cv/cv.pdf`}
+              download="CV-Camelia.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2.5 px-7 py-3.5 rounded-full font-semibold text-sm
                 bg-gradient-to-r from-[#EB8DB5] to-[#D4A3C4] text-white
                 hover:opacity-90 hover:scale-105 transition-all duration-200 shadow-lg shadow-[#EB8DB5]/20"
